@@ -45,7 +45,7 @@ async def invite(ctx):
     await ctx.send(embed=discord.Embed(description="[**Invite Link**](https://discord.com/api/oauth2/authorize?client_id=818602531370041353&permissions=2147863616&redirect_uri=https%3A%2F%2Fdiscord.gg%2Fbread&scope=bot) 🔗", color = config.MAINCOLOR))
 
 # Cogs
-cogs = ["Eval", "Summarize"]
+cogs = ["Eval", "Summarize", "StatCord"]
 
 # Starts all cogs
 for cog in cogs:
